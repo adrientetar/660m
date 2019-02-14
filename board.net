@@ -1,7 +1,7 @@
 (export (version D)
   (design
     (source C:\Users\Admin\Code\fc660m-pcb\board.sch)
-    (date "14/02/2019 00:27:05")
+    (date "14/02/2019 01:15:31")
     (tool "Eeschema (5.0.2)-1")
     (sheet (number 1) (name /) (tstamps /)
       (title_block
@@ -80,7 +80,7 @@
       (tstamp 5C6077B7))
     (comp (ref SW1)
       (value 5.2x5.2mm)
-      (footprint random-keyboard-parts:Molex-0548190589)
+      (footprint random-keyboard-parts:PushButton_6x6mm_TH_Pretty)
       (libsource (lib Switch) (part SW_Push) (description "Push button switch, generic, two pins"))
       (sheetpath (names /) (tstamps /))
       (tstamp 5C609CC9))
