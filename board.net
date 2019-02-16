@@ -1,7 +1,7 @@
 (export (version D)
   (design
     (source C:\Users\Admin\Code\fc660m-pcb\board.sch)
-    (date "14/02/2019 01:49:29")
+    (date "16/02/2019 02:17:59")
     (tool "Eeschema (5.0.2)-1")
     (sheet (number 1) (name /) (tstamps /)
       (title_block
