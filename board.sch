@@ -356,7 +356,7 @@ AR Path="/5C82C6C8/5C8D49C2" Ref="F?"  Part="1"
 AR Path="/5C8D49C2" Ref="F1"  Part="1" 
 F 0 "F1" V 2475 5850 50  0000 C CNN
 F 1 "500mA" V 2625 5850 50  0000 C CNN
-F 2 "Fuse_Holders_and_Fuses:Fuse_SMD1206_Reflow" H 2600 5650 50  0001 L CNN
+F 2 "Fuse:Fuse_1206_3216Metric" H 2600 5650 50  0001 L CNN
 F 3 "" H 2550 5850 50  0001 C CNN
 	1    2550 5850
 	0    1    1    0   
