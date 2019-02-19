@@ -71,28 +71,16 @@ F 3 "" H 1525 5500 50  0001 C CNN
 $EndComp
 Wire Wire Line
 	1525 5500 1525 5400
-Connection ~ 1525 5400
 Wire Wire Line
 	1525 5200 1525 5100
-Connection ~ 1525 5200
 Connection ~ 1675 5400
-Wire Wire Line
-	1525 5400 1675 5400
 Wire Wire Line
 	1975 5400 1675 5400
 Connection ~ 1675 5200
-Wire Wire Line
-	1675 5200 1975 5200
-Wire Wire Line
-	1675 5200 1525 5200
 Connection ~ 1375 5400
-Wire Wire Line
-	1375 5400 1525 5400
 Wire Wire Line
 	1075 5400 1375 5400
 Connection ~ 1375 5200
-Wire Wire Line
-	1525 5200 1375 5200
 Wire Wire Line
 	1375 5200 1075 5200
 $Comp
@@ -121,10 +109,6 @@ F 3 "" H 2300 6150 50  0001 C CNN
 	1    2300 6150
 	1    0    0    -1  
 $EndComp
-Text GLabel 4050 6575 2    60   Input ~ 0
-D-
-Text GLabel 4050 6675 2    60   Input ~ 0
-D+
 $Comp
 L Type-C:HRO-TYPE-C-31-M-12 USB?
 U 1 1 5C8D49E5
@@ -2311,15 +2295,11 @@ U 1 1 5C6ACED9
 P 3125 3025
 F 0 "U1" H 3075 1439 50  0000 C CNN
 F 1 "STM32F072CBT6" H 3075 1348 50  0000 C CNN
-F 2 "Package_QFP:LQFP-32_7x7mm_P0.8mm" H 2725 2125 50  0001 R CNN
+F 2 "Package_QFP:LQFP-48_7x7mm_P0.5mm" H 2725 2125 50  0001 R CNN
 F 3 "http://www.st.com/st-web-ui/static/active/en/resource/technical/document/datasheet/DM00105814.pdf" H 3125 3025 50  0001 C CNN
 	1    3125 3025
 	1    0    0    -1  
 $EndComp
-Text GLabel 3725 4025 2    50   Input ~ 0
-D+
-Text GLabel 3725 3925 2    50   Input ~ 0
-D-
 Wire Wire Line
 	2575 6675 4050 6675
 Wire Wire Line
@@ -2753,4 +2733,24 @@ Wire Wire Line
 Connection ~ 2800 5400
 Wire Wire Line
 	2800 5400 3075 5400
+Wire Wire Line
+	1375 5400 1525 5400
+Wire Wire Line
+	1525 5400 1675 5400
+Connection ~ 1525 5400
+Wire Wire Line
+	1675 5200 1975 5200
+Wire Wire Line
+	1525 5200 1375 5200
+Wire Wire Line
+	1675 5200 1525 5200
+Connection ~ 1525 5200
+Text GLabel 4050 6575 2    50   Input ~ 0
+D-
+Text GLabel 3725 3925 2    50   Input ~ 0
+D-
+Text GLabel 4050 6675 2    50   Input ~ 0
+D+
+Text GLabel 3725 4025 2    50   Input ~ 0
+D+
 $EndSCHEMATC
