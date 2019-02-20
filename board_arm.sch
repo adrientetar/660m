@@ -98,7 +98,7 @@ F 3 "" H 2300 6150 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L Type-C:HRO-TYPE-C-31-M-12 USB?
+L board_arm-rescue:HRO-TYPE-C-31-M-12-Type-C USB?
 U 1 1 5C8D49E5
 P 1325 6600
 AR Path="/5C82C6C8/5C8D49E5" Ref="USB?"  Part="1" 
@@ -282,7 +282,7 @@ F 3 "" V 5300 2475 50  0001 C CNN
 	0    -1   -1   0   
 $EndComp
 $Comp
-L MX_Alps_Hybrids:MX-1U K_#1
+L board_arm-rescue:MX-1U-MX_Alps_Hybrids K_#1
 U 1 1 5C9939AB
 P 6000 2200
 F 0 "K_#1" H 6000 2325 60  0000 C CNN
@@ -304,7 +304,7 @@ F 3 "" V 5900 2475 50  0001 C CNN
 	0    -1   -1   0   
 $EndComp
 $Comp
-L MX_Alps_Hybrids:MX-1U K_#2
+L board_arm-rescue:MX-1U-MX_Alps_Hybrids K_#2
 U 1 1 5C9939C0
 P 6600 2200
 F 0 "K_#2" H 6600 2325 60  0000 C CNN
@@ -326,7 +326,7 @@ F 3 "" V 6500 2475 50  0001 C CNN
 	0    -1   -1   0   
 $EndComp
 $Comp
-L MX_Alps_Hybrids:MX-1U K_#3
+L board_arm-rescue:MX-1U-MX_Alps_Hybrids K_#3
 U 1 1 5C9939D5
 P 7200 2200
 F 0 "K_#3" H 7200 2325 60  0000 C CNN
@@ -348,7 +348,7 @@ F 3 "" V 7100 2475 50  0001 C CNN
 	0    -1   -1   0   
 $EndComp
 $Comp
-L MX_Alps_Hybrids:MX-1U K_#4
+L board_arm-rescue:MX-1U-MX_Alps_Hybrids K_#4
 U 1 1 5C9939EA
 P 7800 2200
 F 0 "K_#4" H 7800 2325 60  0000 C CNN
@@ -370,7 +370,7 @@ F 3 "" V 7700 2475 50  0001 C CNN
 	0    -1   -1   0   
 $EndComp
 $Comp
-L MX_Alps_Hybrids:MX-1U K_#5
+L board_arm-rescue:MX-1U-MX_Alps_Hybrids K_#5
 U 1 1 5C9939FF
 P 8400 2200
 F 0 "K_#5" H 8400 2325 60  0000 C CNN
@@ -392,7 +392,7 @@ F 3 "" V 8300 2475 50  0001 C CNN
 	0    -1   -1   0   
 $EndComp
 $Comp
-L MX_Alps_Hybrids:MX-1U K_#6
+L board_arm-rescue:MX-1U-MX_Alps_Hybrids K_#6
 U 1 1 5C993A14
 P 9000 2200
 F 0 "K_#6" H 9000 2325 60  0000 C CNN
@@ -414,7 +414,7 @@ F 3 "" V 8900 2475 50  0001 C CNN
 	0    -1   -1   0   
 $EndComp
 $Comp
-L MX_Alps_Hybrids:MX-1U K_#7
+L board_arm-rescue:MX-1U-MX_Alps_Hybrids K_#7
 U 1 1 5C993A29
 P 9600 2200
 F 0 "K_#7" H 9600 2325 60  0000 C CNN
@@ -436,7 +436,7 @@ F 3 "" V 9500 2475 50  0001 C CNN
 	0    -1   -1   0   
 $EndComp
 $Comp
-L MX_Alps_Hybrids:MX-1U K_#8
+L board_arm-rescue:MX-1U-MX_Alps_Hybrids K_#8
 U 1 1 5C993A3E
 P 10200 2200
 F 0 "K_#8" H 10200 2325 60  0000 C CNN
@@ -458,7 +458,7 @@ F 3 "" V 10100 2475 50  0001 C CNN
 	0    -1   -1   0   
 $EndComp
 $Comp
-L MX_Alps_Hybrids:MX-1U K_#9
+L board_arm-rescue:MX-1U-MX_Alps_Hybrids K_#9
 U 1 1 5C993A53
 P 10800 2200
 F 0 "K_#9" H 10800 2325 60  0000 C CNN
@@ -480,7 +480,7 @@ F 3 "" V 10700 2475 50  0001 C CNN
 	0    -1   -1   0   
 $EndComp
 $Comp
-L MX_Alps_Hybrids:MX-1U K_#10
+L board_arm-rescue:MX-1U-MX_Alps_Hybrids K_#10
 U 1 1 5C993A68
 P 11400 2200
 F 0 "K_#10" H 11400 2325 60  0000 C CNN
@@ -502,7 +502,7 @@ F 3 "" V 11300 2475 50  0001 C CNN
 	0    -1   -1   0   
 $EndComp
 $Comp
-L MX_Alps_Hybrids:MX-1U K_-1
+L board_arm-rescue:MX-1U-MX_Alps_Hybrids K_-1
 U 1 1 5C993A7D
 P 12000 2200
 F 0 "K_-1" H 12000 2325 60  0000 C CNN
@@ -524,7 +524,7 @@ F 3 "" V 11900 2475 50  0001 C CNN
 	0    -1   -1   0   
 $EndComp
 $Comp
-L MX_Alps_Hybrids:MX-1U K_=1
+L board_arm-rescue:MX-1U-MX_Alps_Hybrids K_=1
 U 1 1 5C993A92
 P 12600 2200
 F 0 "K_=1" H 12600 2325 60  0000 C CNN
@@ -546,7 +546,7 @@ F 3 "" V 12500 2475 50  0001 C CNN
 	0    -1   -1   0   
 $EndComp
 $Comp
-L MX_Alps_Hybrids:MX-1U K_BACK1
+L board_arm-rescue:MX-1U-MX_Alps_Hybrids K_BACK1
 U 1 1 5C993AA7
 P 13200 2200
 F 0 "K_BACK1" H 13200 2325 60  0000 C CNN
@@ -568,7 +568,7 @@ F 3 "" V 13100 2475 50  0001 C CNN
 	0    -1   -1   0   
 $EndComp
 $Comp
-L MX_Alps_Hybrids:MX-1U K_TAB1
+L board_arm-rescue:MX-1U-MX_Alps_Hybrids K_TAB1
 U 1 1 5C993ABC
 P 5400 2850
 F 0 "K_TAB1" H 5400 2975 60  0000 C CNN
@@ -601,7 +601,7 @@ F 3 "" V 5900 3125 50  0001 C CNN
 	0    -1   -1   0   
 $EndComp
 $Comp
-L MX_Alps_Hybrids:MX-1U K_W1
+L board_arm-rescue:MX-1U-MX_Alps_Hybrids K_W1
 U 1 1 5C993AE6
 P 6600 2850
 F 0 "K_W1" H 6600 2975 60  0000 C CNN
@@ -623,7 +623,7 @@ F 3 "" V 6500 3125 50  0001 C CNN
 	0    -1   -1   0   
 $EndComp
 $Comp
-L MX_Alps_Hybrids:MX-1U K_E1
+L board_arm-rescue:MX-1U-MX_Alps_Hybrids K_E1
 U 1 1 5C993AFB
 P 7200 2850
 F 0 "K_E1" H 7200 2975 60  0000 C CNN
@@ -645,7 +645,7 @@ F 3 "" V 7100 3125 50  0001 C CNN
 	0    -1   -1   0   
 $EndComp
 $Comp
-L MX_Alps_Hybrids:MX-1U K_R1
+L board_arm-rescue:MX-1U-MX_Alps_Hybrids K_R1
 U 1 1 5C993B10
 P 7800 2850
 F 0 "K_R1" H 7800 2975 60  0000 C CNN
@@ -667,7 +667,7 @@ F 3 "" V 7700 3125 50  0001 C CNN
 	0    -1   -1   0   
 $EndComp
 $Comp
-L MX_Alps_Hybrids:MX-1U K_T1
+L board_arm-rescue:MX-1U-MX_Alps_Hybrids K_T1
 U 1 1 5C993B25
 P 8400 2850
 F 0 "K_T1" H 8400 2975 60  0000 C CNN
@@ -689,7 +689,7 @@ F 3 "" V 8300 3125 50  0001 C CNN
 	0    -1   -1   0   
 $EndComp
 $Comp
-L MX_Alps_Hybrids:MX-1U K_Y1
+L board_arm-rescue:MX-1U-MX_Alps_Hybrids K_Y1
 U 1 1 5C993B3A
 P 9000 2850
 F 0 "K_Y1" H 9000 2975 60  0000 C CNN
@@ -722,7 +722,7 @@ F 3 "" V 9500 3125 50  0001 C CNN
 	0    -1   -1   0   
 $EndComp
 $Comp
-L MX_Alps_Hybrids:MX-1U K_I1
+L board_arm-rescue:MX-1U-MX_Alps_Hybrids K_I1
 U 1 1 5C993B64
 P 10200 2850
 F 0 "K_I1" H 10200 2975 60  0000 C CNN
@@ -744,7 +744,7 @@ F 3 "" V 10100 3125 50  0001 C CNN
 	0    -1   -1   0   
 $EndComp
 $Comp
-L MX_Alps_Hybrids:MX-1U K_O1
+L board_arm-rescue:MX-1U-MX_Alps_Hybrids K_O1
 U 1 1 5C993B79
 P 10800 2850
 F 0 "K_O1" H 10800 2975 60  0000 C CNN
@@ -766,7 +766,7 @@ F 3 "" V 10700 3125 50  0001 C CNN
 	0    -1   -1   0   
 $EndComp
 $Comp
-L MX_Alps_Hybrids:MX-1U K_P1
+L board_arm-rescue:MX-1U-MX_Alps_Hybrids K_P1
 U 1 1 5C993B8E
 P 11400 2850
 F 0 "K_P1" H 11400 2975 60  0000 C CNN
@@ -788,7 +788,7 @@ F 3 "" V 11300 3125 50  0001 C CNN
 	0    -1   -1   0   
 $EndComp
 $Comp
-L MX_Alps_Hybrids:MX-1U K_[1
+L board_arm-rescue:MX-1U-MX_Alps_Hybrids K_[1
 U 1 1 5C993BA3
 P 12000 2850
 F 0 "K_[1" H 12000 2975 60  0000 C CNN
@@ -810,7 +810,7 @@ F 3 "" V 11900 3125 50  0001 C CNN
 	0    -1   -1   0   
 $EndComp
 $Comp
-L MX_Alps_Hybrids:MX-1U K_]1
+L board_arm-rescue:MX-1U-MX_Alps_Hybrids K_]1
 U 1 1 5C993BB8
 P 12600 2850
 F 0 "K_]1" H 12600 2975 60  0000 C CNN
@@ -832,7 +832,7 @@ F 3 "" V 12500 3125 50  0001 C CNN
 	0    -1   -1   0   
 $EndComp
 $Comp
-L MX_Alps_Hybrids:MX-1.5U K_\1
+L board_arm-rescue:MX-1.5U-MX_Alps_Hybrids K_\1
 U 1 1 5C993BCD
 P 13200 2850
 F 0 "K_\\1" H 13200 2975 60  0000 C CNN
@@ -854,7 +854,7 @@ F 3 "" V 13100 3125 50  0001 C CNN
 	0    -1   -1   0   
 $EndComp
 $Comp
-L MX_Alps_Hybrids:MX-1U K_CAPS1
+L board_arm-rescue:MX-1U-MX_Alps_Hybrids K_CAPS1
 U 1 1 5C993BE2
 P 5400 3500
 F 0 "K_CAPS1" H 5400 3625 60  0000 C CNN
@@ -876,7 +876,7 @@ F 3 "" V 5300 3775 50  0001 C CNN
 	0    -1   -1   0   
 $EndComp
 $Comp
-L MX_Alps_Hybrids:MX-1U K_A1
+L board_arm-rescue:MX-1U-MX_Alps_Hybrids K_A1
 U 1 1 5C993BF7
 P 6000 3500
 F 0 "K_A1" H 6000 3625 60  0000 C CNN
@@ -898,7 +898,7 @@ F 3 "" V 5900 3775 50  0001 C CNN
 	0    -1   -1   0   
 $EndComp
 $Comp
-L MX_Alps_Hybrids:MX-1U K_S1
+L board_arm-rescue:MX-1U-MX_Alps_Hybrids K_S1
 U 1 1 5C993C0C
 P 6600 3500
 F 0 "K_S1" H 6600 3625 60  0000 C CNN
@@ -920,7 +920,7 @@ F 3 "" V 6500 3775 50  0001 C CNN
 	0    -1   -1   0   
 $EndComp
 $Comp
-L MX_Alps_Hybrids:MX-1U K_D1
+L board_arm-rescue:MX-1U-MX_Alps_Hybrids K_D1
 U 1 1 5C993C21
 P 7200 3500
 F 0 "K_D1" H 7200 3625 60  0000 C CNN
@@ -942,7 +942,7 @@ F 3 "" V 7100 3775 50  0001 C CNN
 	0    -1   -1   0   
 $EndComp
 $Comp
-L MX_Alps_Hybrids:MX-1U K_F1
+L board_arm-rescue:MX-1U-MX_Alps_Hybrids K_F1
 U 1 1 5C993C36
 P 7800 3500
 F 0 "K_F1" H 7800 3625 60  0000 C CNN
@@ -964,7 +964,7 @@ F 3 "" V 7700 3775 50  0001 C CNN
 	0    -1   -1   0   
 $EndComp
 $Comp
-L MX_Alps_Hybrids:MX-1U K_G1
+L board_arm-rescue:MX-1U-MX_Alps_Hybrids K_G1
 U 1 1 5C993C4B
 P 8400 3500
 F 0 "K_G1" H 8400 3625 60  0000 C CNN
@@ -986,7 +986,7 @@ F 3 "" V 8300 3775 50  0001 C CNN
 	0    -1   -1   0   
 $EndComp
 $Comp
-L MX_Alps_Hybrids:MX-1U K_H1
+L board_arm-rescue:MX-1U-MX_Alps_Hybrids K_H1
 U 1 1 5C993C60
 P 9000 3500
 F 0 "K_H1" H 9000 3625 60  0000 C CNN
@@ -1019,7 +1019,7 @@ F 3 "" V 9500 3775 50  0001 C CNN
 	0    -1   -1   0   
 $EndComp
 $Comp
-L MX_Alps_Hybrids:MX-1U K_K1
+L board_arm-rescue:MX-1U-MX_Alps_Hybrids K_K1
 U 1 1 5C993C8A
 P 10200 3500
 F 0 "K_K1" H 10200 3625 60  0000 C CNN
@@ -1041,7 +1041,7 @@ F 3 "" V 10100 3775 50  0001 C CNN
 	0    -1   -1   0   
 $EndComp
 $Comp
-L MX_Alps_Hybrids:MX-1U K_L1
+L board_arm-rescue:MX-1U-MX_Alps_Hybrids K_L1
 U 1 1 5C993C9F
 P 10800 3500
 F 0 "K_L1" H 10800 3625 60  0000 C CNN
@@ -1063,7 +1063,7 @@ F 3 "" V 10700 3775 50  0001 C CNN
 	0    -1   -1   0   
 $EndComp
 $Comp
-L MX_Alps_Hybrids:MX-1U K_;1
+L board_arm-rescue:MX-1U-MX_Alps_Hybrids K_;1
 U 1 1 5C993CB4
 P 11400 3500
 F 0 "K_;1" H 11400 3625 60  0000 C CNN
@@ -1085,7 +1085,7 @@ F 3 "" V 11300 3775 50  0001 C CNN
 	0    -1   -1   0   
 $EndComp
 $Comp
-L MX_Alps_Hybrids:MX-1U K_'1
+L board_arm-rescue:MX-1U-MX_Alps_Hybrids K_'1
 U 1 1 5C993CC9
 P 12000 3500
 F 0 "K_'1" H 12000 3625 60  0000 C CNN
@@ -1107,7 +1107,7 @@ F 3 "" V 11900 3775 50  0001 C CNN
 	0    -1   -1   0   
 $EndComp
 $Comp
-L MX_Alps_Hybrids:MX-1U K_ENTER1
+L board_arm-rescue:MX-1U-MX_Alps_Hybrids K_ENTER1
 U 1 1 5C993CDE
 P 13200 3500
 F 0 "K_ENTER1" H 13200 3625 60  0000 C CNN
@@ -1129,7 +1129,7 @@ F 3 "" V 13100 3775 50  0001 C CNN
 	0    -1   -1   0   
 $EndComp
 $Comp
-L MX_Alps_Hybrids:MX-1U K_SHIFT1
+L board_arm-rescue:MX-1U-MX_Alps_Hybrids K_SHIFT1
 U 1 1 5C993CF3
 P 5400 4150
 F 0 "K_SHIFT1" H 5400 4275 60  0000 C CNN
@@ -1162,7 +1162,7 @@ F 3 "" V 6500 4425 50  0001 C CNN
 	0    -1   -1   0   
 $EndComp
 $Comp
-L MX_Alps_Hybrids:MX-1U K_X1
+L board_arm-rescue:MX-1U-MX_Alps_Hybrids K_X1
 U 1 1 5C993D1D
 P 7200 4150
 F 0 "K_X1" H 7200 4275 60  0000 C CNN
@@ -1184,7 +1184,7 @@ F 3 "" V 7100 4425 50  0001 C CNN
 	0    -1   -1   0   
 $EndComp
 $Comp
-L MX_Alps_Hybrids:MX-1U K_C1
+L board_arm-rescue:MX-1U-MX_Alps_Hybrids K_C1
 U 1 1 5C993D32
 P 7800 4150
 F 0 "K_C1" H 7800 4275 60  0000 C CNN
@@ -1206,7 +1206,7 @@ F 3 "" V 7700 4425 50  0001 C CNN
 	0    -1   -1   0   
 $EndComp
 $Comp
-L MX_Alps_Hybrids:MX-1U K_V1
+L board_arm-rescue:MX-1U-MX_Alps_Hybrids K_V1
 U 1 1 5C993D47
 P 8400 4150
 F 0 "K_V1" H 8400 4275 60  0000 C CNN
@@ -1228,7 +1228,7 @@ F 3 "" V 8300 4425 50  0001 C CNN
 	0    -1   -1   0   
 $EndComp
 $Comp
-L MX_Alps_Hybrids:MX-1U K_B1
+L board_arm-rescue:MX-1U-MX_Alps_Hybrids K_B1
 U 1 1 5C993D5C
 P 9000 4150
 F 0 "K_B1" H 9000 4275 60  0000 C CNN
@@ -1250,7 +1250,7 @@ F 3 "" V 8900 4425 50  0001 C CNN
 	0    -1   -1   0   
 $EndComp
 $Comp
-L MX_Alps_Hybrids:MX-1U K_N1
+L board_arm-rescue:MX-1U-MX_Alps_Hybrids K_N1
 U 1 1 5C993D71
 P 9600 4150
 F 0 "K_N1" H 9600 4275 60  0000 C CNN
@@ -1272,7 +1272,7 @@ F 3 "" V 9500 4425 50  0001 C CNN
 	0    -1   -1   0   
 $EndComp
 $Comp
-L MX_Alps_Hybrids:MX-1U K_M1
+L board_arm-rescue:MX-1U-MX_Alps_Hybrids K_M1
 U 1 1 5C993D86
 P 10200 4150
 F 0 "K_M1" H 10200 4275 60  0000 C CNN
@@ -1294,7 +1294,7 @@ F 3 "" V 10100 4425 50  0001 C CNN
 	0    -1   -1   0   
 $EndComp
 $Comp
-L MX_Alps_Hybrids:MX-1U K_,1
+L board_arm-rescue:MX-1U-MX_Alps_Hybrids K_,1
 U 1 1 5C993D9B
 P 10800 4150
 F 0 "K_,1" H 10800 4275 60  0000 C CNN
@@ -1316,7 +1316,7 @@ F 3 "" V 10700 4425 50  0001 C CNN
 	0    -1   -1   0   
 $EndComp
 $Comp
-L MX_Alps_Hybrids:MX-1U K_.1
+L board_arm-rescue:MX-1U-MX_Alps_Hybrids K_.1
 U 1 1 5C993DB0
 P 11400 4150
 F 0 "K_.1" H 11400 4275 60  0000 C CNN
@@ -1349,7 +1349,7 @@ F 3 "" V 11900 4425 50  0001 C CNN
 	0    -1   -1   0   
 $EndComp
 $Comp
-L MX_Alps_Hybrids:MX-1U K_RSHIFT1
+L board_arm-rescue:MX-1U-MX_Alps_Hybrids K_RSHIFT1
 U 1 1 5C993DDA
 P 12600 4150
 F 0 "K_RSHIFT1" H 12600 4275 60  0000 C CNN
@@ -1475,7 +1475,7 @@ ROW3
 Text GLabel 5025 5175 0    60   Input ~ 0
 ROW4
 $Comp
-L MX_Alps_Hybrids:MX-1U K_ALT1
+L board_arm-rescue:MX-1U-MX_Alps_Hybrids K_ALT1
 U 1 1 5C993E8E
 P 6600 4800
 F 0 "K_ALT1" H 6600 4925 60  0000 C CNN
@@ -1497,7 +1497,7 @@ F 3 "" V 6500 5075 50  0001 C CNN
 	0    -1   -1   0   
 $EndComp
 $Comp
-L MX_Alps_Hybrids:MX-1U K_SPACE1
+L board_arm-rescue:MX-1U-MX_Alps_Hybrids K_SPACE1
 U 1 1 5C993EB1
 P 9000 4800
 F 0 "K_SPACE1" H 9000 4925 60  0000 C CNN
@@ -1618,11 +1618,6 @@ Wire Wire Line
 Wire Wire Line
 	13100 4975 13175 4975
 Wire Wire Line
-	13375 2050 13375 2175
-Connection ~ 13375 2825
-Connection ~ 13375 3475
-Connection ~ 13375 2175
-Wire Wire Line
 	5025 2575 5300 2575
 Connection ~ 5300 2575
 Connection ~ 5900 2575
@@ -1679,10 +1674,6 @@ Wire Wire Line
 	6500 4975 6575 4975
 Connection ~ 6500 5175
 Connection ~ 8900 4975
-Wire Wire Line
-	13375 2825 13375 3475
-Wire Wire Line
-	13375 2175 13375 2825
 Wire Wire Line
 	5300 2575 5900 2575
 Wire Wire Line
@@ -1787,7 +1778,7 @@ Wire Wire Line
 	12500 4975 12575 4975
 Connection ~ 12500 5175
 $Comp
-L MX_Alps_Hybrids:MX-1U K_RALT1
+L board_arm-rescue:MX-1U-MX_Alps_Hybrids K_RALT1
 U 1 1 5C99416F
 P 11400 4800
 F 0 "K_RALT1" H 11400 4925 60  0000 C CNN
@@ -1798,7 +1789,7 @@ F 3 "" H 11375 4775 60  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L MX_Alps_Hybrids:MX-1U K_FN1
+L board_arm-rescue:MX-1U-MX_Alps_Hybrids K_FN1
 U 1 1 5C994176
 P 12000 4800
 F 0 "K_FN1" H 12000 4925 60  0000 C CNN
@@ -1809,7 +1800,7 @@ F 3 "" H 11975 4775 60  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L MX_Alps_Hybrids:MX-1U K_RCTRL1
+L board_arm-rescue:MX-1U-MX_Alps_Hybrids K_RCTRL1
 U 1 1 5C994184
 P 12600 4800
 F 0 "K_RCTRL1" H 12600 4925 60  0000 C CNN
@@ -1819,7 +1810,6 @@ F 3 "" H 12575 4775 60  0001 C CNN
 	1    12600 4800
 	1    0    0    -1  
 $EndComp
-Connection ~ 12775 4125
 Connection ~ 11900 4525
 Wire Wire Line
 	11900 4525 12500 4525
@@ -1852,7 +1842,7 @@ Wire Wire Line
 	6500 4525 7100 4525
 Connection ~ 8900 5175
 $Comp
-L MX_Alps_Hybrids:MX-1U K_ESC1
+L board_arm-rescue:MX-1U-MX_Alps_Hybrids K_ESC1
 U 1 1 5C993996
 P 5400 2200
 F 0 "K_ESC1" H 5400 2325 60  0000 C CNN
@@ -1863,7 +1853,7 @@ F 3 "" H 5375 2175 60  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L MX_Alps_Hybrids:MX-1U K_Q1
+L board_arm-rescue:MX-1U-MX_Alps_Hybrids K_Q1
 U 1 1 5C993AD1
 P 6000 2850
 F 0 "K_Q1" H 6000 2975 60  0000 C CNN
@@ -1874,7 +1864,7 @@ F 3 "" H 5975 2825 60  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L MX_Alps_Hybrids:MX-1U K_CTRL1
+L board_arm-rescue:MX-1U-MX_Alps_Hybrids K_CTRL1
 U 1 1 5C993E04
 P 5400 4800
 F 0 "K_CTRL1" H 5400 4925 60  0000 C CNN
@@ -1885,7 +1875,7 @@ F 3 "" H 5375 4775 60  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L MX_Alps_Hybrids:MX-1U K_J1
+L board_arm-rescue:MX-1U-MX_Alps_Hybrids K_J1
 U 1 1 5C993C75
 P 9600 3500
 F 0 "K_J1" H 9600 3625 60  0000 C CNN
@@ -1896,26 +1886,9 @@ F 3 "" H 9575 3475 60  0001 C CNN
 	1    0    0    -1  
 $EndComp
 Wire Wire Line
-	12775 2050 12775 2175
-Connection ~ 12775 2175
-Wire Wire Line
-	12175 2050 12175 2175
-Connection ~ 12175 2175
-Wire Wire Line
 	12500 4325 12575 4325
-Wire Wire Line
-	12775 4125 12775 4775
-Wire Wire Line
-	12775 2175 12775 2825
-Connection ~ 12775 2825
-Wire Wire Line
-	12175 2175 12175 2825
-Connection ~ 12175 2825
-Wire Wire Line
-	12175 2825 12175 3475
-Connection ~ 12175 3475
 $Comp
-L MX_Alps_Hybrids:MX-1U K_/1
+L board_arm-rescue:MX-1U-MX_Alps_Hybrids K_/1
 U 1 1 5C993DC5
 P 12000 4150
 F 0 "K_/1" H 12000 4275 60  0000 C CNN
@@ -1926,52 +1899,11 @@ F 3 "" H 11975 4125 60  0001 C CNN
 	1    0    0    -1  
 $EndComp
 Wire Wire Line
-	12175 3475 12175 4125
-Connection ~ 12175 4125
-Wire Wire Line
-	12175 4125 12175 4775
-Connection ~ 11575 4125
-Wire Wire Line
-	11575 4125 11575 4775
-Connection ~ 11575 3475
-Wire Wire Line
-	11575 3475 11575 4125
-Connection ~ 11575 2825
-Wire Wire Line
-	11575 2825 11575 3475
-Wire Wire Line
-	11575 2050 11575 2175
-Connection ~ 11575 2175
-Wire Wire Line
-	11575 2175 11575 2825
-Wire Wire Line
-	10975 2050 10975 2175
-Connection ~ 10975 2175
-Wire Wire Line
-	10975 2175 10975 2825
-Connection ~ 10975 2825
-Wire Wire Line
-	10975 2825 10975 3475
-Connection ~ 10975 3475
-Wire Wire Line
-	10975 3475 10975 4125
-Connection ~ 10375 3475
-Wire Wire Line
-	10375 3475 10375 4125
-Connection ~ 10375 2825
-Wire Wire Line
-	10375 2825 10375 3475
-Wire Wire Line
-	10375 2050 10375 2175
-Connection ~ 10375 2175
-Wire Wire Line
-	10375 2175 10375 2825
-Wire Wire Line
 	13100 3025 13175 3025
 Wire Wire Line
 	13100 3675 13175 3675
 $Comp
-L MX_Alps_Hybrids:MX-1U K_U1
+L board_arm-rescue:MX-1U-MX_Alps_Hybrids K_U1
 U 1 1 5C993B4F
 P 9600 2850
 F 0 "K_U1" H 9600 2975 60  0000 C CNN
@@ -1981,60 +1913,8 @@ F 3 "" H 9575 2825 60  0001 C CNN
 	1    9600 2850
 	1    0    0    -1  
 $EndComp
-Wire Wire Line
-	9775 2050 9775 2175
-Connection ~ 9775 2175
-Wire Wire Line
-	9775 2175 9775 2825
-Connection ~ 9775 2825
-Wire Wire Line
-	9775 2825 9775 3475
-Connection ~ 9775 3475
-Wire Wire Line
-	9775 3475 9775 4125
-Wire Wire Line
-	8575 2050 8575 2175
-Connection ~ 8575 2175
-Wire Wire Line
-	8575 2175 8575 2825
-Connection ~ 8575 2825
-Wire Wire Line
-	8575 2825 8575 3475
-Connection ~ 8575 3475
-Wire Wire Line
-	8575 3475 8575 4125
-Wire Wire Line
-	7975 2050 7975 2175
-Connection ~ 7975 2175
-Wire Wire Line
-	7975 2175 7975 2825
-Connection ~ 7975 2825
-Wire Wire Line
-	7975 2825 7975 3475
-Connection ~ 7975 3475
-Wire Wire Line
-	7975 3475 7975 4125
-Wire Wire Line
-	7375 2050 7375 2175
-Connection ~ 7375 2175
-Wire Wire Line
-	7375 2175 7375 2825
-Connection ~ 7375 2825
-Wire Wire Line
-	7375 2825 7375 3475
-Connection ~ 7375 3475
-Wire Wire Line
-	7375 3475 7375 4125
-Wire Wire Line
-	6775 2050 6775 2175
-Connection ~ 6775 2175
-Wire Wire Line
-	6775 2175 6775 2825
-Connection ~ 6775 2825
-Wire Wire Line
-	6775 2825 6775 3475
 $Comp
-L MX_Alps_Hybrids:MX-1U K_Z1
+L board_arm-rescue:MX-1U-MX_Alps_Hybrids K_Z1
 U 1 1 5C993D08
 P 6600 4150
 F 0 "K_Z1" H 6600 4275 60  0000 C CNN
@@ -2044,51 +1924,8 @@ F 3 "" H 6575 4125 60  0001 C CNN
 	1    6600 4150
 	1    0    0    -1  
 $EndComp
-Connection ~ 6775 3475
-Wire Wire Line
-	6775 3475 6775 4125
-Connection ~ 6775 4125
-Wire Wire Line
-	6775 4125 6775 4775
-Wire Wire Line
-	6175 2050 6175 2175
-Connection ~ 6175 2175
-Wire Wire Line
-	6175 2175 6175 2825
-Connection ~ 6175 2825
-Wire Wire Line
-	6175 2825 6175 3475
-Connection ~ 6175 3475
-Connection ~ 5575 2175
-Wire Wire Line
-	5575 2175 5575 2825
-Wire Wire Line
-	5575 2050 5575 2175
-Connection ~ 5575 2825
-Wire Wire Line
-	9175 2050 9175 2175
-Connection ~ 9175 2175
-Wire Wire Line
-	9175 2175 9175 2825
-Connection ~ 9175 2825
-Wire Wire Line
-	9175 2825 9175 3475
-Connection ~ 9175 3475
-Wire Wire Line
-	9175 3475 9175 4125
-Connection ~ 9175 4125
-Wire Wire Line
-	9175 4125 9175 4775
-Wire Wire Line
-	5575 2825 5575 3475
-Connection ~ 5575 3475
-Wire Wire Line
-	5575 3475 5575 4125
-Connection ~ 5575 4125
-Wire Wire Line
-	5575 4125 5575 4775
 $Comp
-L MX_Alps_Hybrids:MX-1U K_WIN1
+L board_arm-rescue:MX-1U-MX_Alps_Hybrids K_WIN1
 U 1 1 5C993EAA
 P 6000 4800
 F 0 "K_WIN1" H 6000 4925 60  0000 C CNN
@@ -2103,11 +1940,9 @@ Wire Wire Line
 Wire Wire Line
 	8900 5175 11300 5175
 Wire Wire Line
-	6175 3475 6175 4775
-Wire Wire Line
 	5300 4525 6500 4525
 $Comp
-L MX_Alps_Hybrids:MX-1U K_LEFT1
+L board_arm-rescue:MX-1U-MX_Alps_Hybrids K_LEFT1
 U 1 1 5F1D5B70
 P 13200 4800
 F 0 "K_LEFT1" H 13200 4925 60  0000 C CNN
@@ -2117,10 +1952,6 @@ F 3 "" H 13175 4775 60  0001 C CNN
 	1    13200 4800
 	1    0    0    -1  
 $EndComp
-Wire Wire Line
-	13375 3475 13375 4775
-Wire Wire Line
-	12775 2825 12775 4125
 Wire Wire Line
 	11900 3875 13100 3875
 $Comp
@@ -2137,7 +1968,7 @@ $EndComp
 Wire Wire Line
 	13700 4975 13775 4975
 $Comp
-L MX_Alps_Hybrids:MX-1U K_DOWN1
+L board_arm-rescue:MX-1U-MX_Alps_Hybrids K_DOWN1
 U 1 1 5F2A3A74
 P 13800 4800
 F 0 "K_DOWN1" H 13800 4925 60  0000 C CNN
@@ -2147,8 +1978,6 @@ F 3 "" H 13775 4775 60  0001 C CNN
 	1    13800 4800
 	1    0    0    -1  
 $EndComp
-Wire Wire Line
-	13975 2050 13975 4125
 Text GLabel 13975 2050 1    60   Input ~ 0
 COL14
 Connection ~ 13100 5175
@@ -2170,7 +1999,7 @@ $EndComp
 Wire Wire Line
 	13700 4325 13775 4325
 $Comp
-L MX_Alps_Hybrids:MX-1U K_UP1
+L board_arm-rescue:MX-1U-MX_Alps_Hybrids K_UP1
 U 1 1 5F2F47D1
 P 13800 4150
 F 0 "K_UP1" H 13800 4275 60  0000 C CNN
@@ -2197,7 +2026,7 @@ $EndComp
 Wire Wire Line
 	14300 4975 14375 4975
 $Comp
-L MX_Alps_Hybrids:MX-1U K_RIGHT1
+L board_arm-rescue:MX-1U-MX_Alps_Hybrids K_RIGHT1
 U 1 1 5F31BA81
 P 14400 4800
 F 0 "K_RIGHT1" H 14400 4925 60  0000 C CNN
@@ -2210,12 +2039,10 @@ $EndComp
 Wire Wire Line
 	14300 5175 13700 5175
 Connection ~ 13700 5175
-Wire Wire Line
-	14575 4775 14575 2825
 Text GLabel 14575 2050 1    60   Input ~ 0
 COL15
 $Comp
-L MX_Alps_Hybrids:MX-1U K_INSERT1
+L board_arm-rescue:MX-1U-MX_Alps_Hybrids K_INSERT1
 U 1 1 5F35AB42
 P 14400 2200
 F 0 "K_INSERT1" H 14400 2325 60  0000 C CNN
@@ -2242,7 +2069,7 @@ Wire Wire Line
 	14300 2575 13100 2575
 Connection ~ 13100 2575
 $Comp
-L MX_Alps_Hybrids:MX-1U K_DELETE1
+L board_arm-rescue:MX-1U-MX_Alps_Hybrids K_DELETE1
 U 1 1 5F38327F
 P 14400 2850
 F 0 "K_DELETE1" H 14400 2975 60  0000 C CNN
@@ -2268,15 +2095,6 @@ Wire Wire Line
 Wire Wire Line
 	14300 3225 13100 3225
 Connection ~ 13100 3225
-Connection ~ 14575 2825
-Wire Wire Line
-	14575 2825 14575 2175
-Wire Wire Line
-	14575 2175 14575 2050
-Connection ~ 14575 2175
-Wire Wire Line
-	13975 4125 13975 4775
-Connection ~ 13975 4125
 $Comp
 L MCU_ST_STM32F0:STM32F072CBTx U1
 U 1 1 5C6ACED9
@@ -2735,4 +2553,36 @@ Wire Wire Line
 Connection ~ 7150 6600
 Wire Wire Line
 	2125 1725 2425 1725
+Wire Wire Line
+	13975 2050 13975 4775
+Wire Wire Line
+	14575 2050 14575 4775
+Wire Wire Line
+	13375 2050 13375 4775
+Wire Wire Line
+	12775 2050 12775 4775
+Wire Wire Line
+	12175 2050 12175 4775
+Wire Wire Line
+	11575 2050 11575 4775
+Wire Wire Line
+	10975 2050 10975 4125
+Wire Wire Line
+	10375 2050 10375 4125
+Wire Wire Line
+	9775 2050 9775 4125
+Wire Wire Line
+	8575 2050 8575 4125
+Wire Wire Line
+	7975 2050 7975 4125
+Wire Wire Line
+	7375 2050 7375 4125
+Wire Wire Line
+	6775 2050 6775 4775
+Wire Wire Line
+	6175 2050 6175 4775
+Wire Wire Line
+	5575 2050 5575 4775
+Wire Wire Line
+	9175 2050 9175 4775
 $EndSCHEMATC
