@@ -26,28 +26,6 @@ F 3 "~" H 1075 5275 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L Device:C_Small C2
-U 1 1 5C603F7E
-P 1450 5275
-F 0 "C2" H 1542 5321 50  0000 L CNN
-F 1 "0.1uF" H 1542 5230 50  0000 L CNN
-F 2 "Capacitor_SMD:C_0805_2012Metric" H 1450 5275 50  0001 C CNN
-F 3 "~" H 1450 5275 50  0001 C CNN
-	1    1450 5275
-	1    0    0    -1  
-$EndComp
-$Comp
-L Device:C_Small C3
-U 1 1 5C603FAE
-P 1825 5275
-F 0 "C3" H 1917 5321 50  0000 L CNN
-F 1 "0.1uF" H 1917 5230 50  0000 L CNN
-F 2 "Capacitor_SMD:C_0805_2012Metric" H 1825 5275 50  0001 C CNN
-F 3 "~" H 1825 5275 50  0001 C CNN
-	1    1825 5275
-	1    0    0    -1  
-$EndComp
-$Comp
 L Device:C_Small C4
 U 1 1 5C605212
 P 2200 5275
@@ -2400,17 +2378,6 @@ SWDCLK
 Text GLabel 2125 1725 0    50   Input ~ 0
 PWRGD
 $Comp
-L Device:C_Small C5
-U 1 1 5D260E0E
-P 2575 5275
-F 0 "C5" H 2667 5321 50  0000 L CNN
-F 1 "4.7uF" H 2667 5230 50  0000 L CNN
-F 2 "Capacitor_SMD:C_0805_2012Metric" H 2575 5275 50  0001 C CNN
-F 3 "~" H 2575 5275 50  0001 C CNN
-	1    2575 5275
-	1    0    0    -1  
-$EndComp
-$Comp
 L Device:C_Small C6
 U 1 1 5D2621C9
 P 2950 5275
@@ -2498,34 +2465,12 @@ Wire Wire Line
 Connection ~ 3325 1500
 Wire Wire Line
 	3325 1500 3500 1500
-Connection ~ 1450 5175
-Connection ~ 1450 5375
-Connection ~ 1825 5175
-Connection ~ 1825 5375
 Connection ~ 2200 5175
 Connection ~ 2200 5375
-Connection ~ 2575 5175
-Connection ~ 2575 5375
 Connection ~ 2950 5175
 Connection ~ 2950 5375
 Wire Wire Line
-	1825 5375 2200 5375
-Wire Wire Line
-	1075 5375 1450 5375
-Wire Wire Line
-	1075 5175 1450 5175
-Wire Wire Line
-	1825 5175 2200 5175
-Wire Wire Line
-	2575 5175 2950 5175
-Wire Wire Line
-	2575 5375 2950 5375
-Wire Wire Line
-	2200 5175 2575 5175
-Wire Wire Line
 	2950 5175 3325 5175
-Wire Wire Line
-	2200 5375 2575 5375
 Connection ~ 3325 5175
 Wire Wire Line
 	3325 5175 3675 5175
@@ -2537,15 +2482,7 @@ Wire Wire Line
 Wire Wire Line
 	1625 5175 1625 5075
 Connection ~ 1625 5175
-Wire Wire Line
-	1625 5175 1825 5175
-Wire Wire Line
-	1450 5175 1625 5175
 Connection ~ 1625 5375
-Wire Wire Line
-	1625 5375 1825 5375
-Wire Wire Line
-	1450 5375 1625 5375
 Wire Wire Line
 	7150 6700 7050 6700
 Wire Wire Line
@@ -2585,4 +2522,42 @@ Wire Wire Line
 	5575 2050 5575 4775
 Wire Wire Line
 	9175 2050 9175 4775
+$Comp
+L Connector:TestPoint TP1
+U 1 1 5C6EFC1B
+P 8900 6800
+F 0 "TP1" H 8958 6920 50  0000 L CNN
+F 1 "TestPoint" H 8958 6829 50  0000 L CNN
+F 2 "TestPoint:TestPoint_Pad_D1.0mm" H 9100 6800 50  0001 C CNN
+F 3 "~" H 9100 6800 50  0001 C CNN
+	1    8900 6800
+	1    0    0    -1  
+$EndComp
+Text GLabel 8900 6800 3    50   Input ~ 0
+SWDIO
+Text GLabel 9500 6800 3    50   Input ~ 0
+SWDCLK
+$Comp
+L Connector:TestPoint TP2
+U 1 1 5C7259A1
+P 9500 6800
+F 0 "TP2" H 9558 6920 50  0000 L CNN
+F 1 "TestPoint" H 9558 6829 50  0000 L CNN
+F 2 "TestPoint:TestPoint_Pad_D1.0mm" H 9700 6800 50  0001 C CNN
+F 3 "~" H 9700 6800 50  0001 C CNN
+	1    9500 6800
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	1075 5175 1625 5175
+Wire Wire Line
+	1075 5375 1625 5375
+Wire Wire Line
+	1625 5175 2200 5175
+Wire Wire Line
+	1625 5375 2200 5375
+Wire Wire Line
+	2200 5175 2950 5175
+Wire Wire Line
+	2200 5375 2950 5375
 $EndSCHEMATC
