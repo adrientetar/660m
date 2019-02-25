@@ -2380,37 +2380,37 @@ Wire Wire Line
 	7050 6600 7150 6600
 Connection ~ 7150 6600
 Wire Wire Line
-	13975 2050 13975 4775
+	13975 2050 13975 4125
 Wire Wire Line
-	14575 2050 14575 4775
+	14575 2050 14575 2175
 Wire Wire Line
-	13375 2050 13375 4775
+	13375 2050 13375 2175
 Wire Wire Line
-	12775 2050 12775 4775
+	12775 2050 12775 2175
 Wire Wire Line
-	12175 2050 12175 4775
+	12175 2050 12175 2175
 Wire Wire Line
-	11575 2050 11575 4775
+	11575 2050 11575 2175
 Wire Wire Line
-	10975 2050 10975 4125
+	10975 2050 10975 2175
 Wire Wire Line
-	10375 2050 10375 4125
+	10375 2050 10375 2175
 Wire Wire Line
-	9775 2050 9775 4125
+	9775 2050 9775 2175
 Wire Wire Line
-	8575 2050 8575 4125
+	8575 2050 8575 2175
 Wire Wire Line
-	7975 2050 7975 4125
+	7975 2050 7975 2175
 Wire Wire Line
-	7375 2050 7375 4125
+	7375 2050 7375 2175
 Wire Wire Line
-	6775 2050 6775 4775
+	6775 2050 6775 2175
 Wire Wire Line
-	6175 2050 6175 4775
+	6175 2050 6175 2175
 Wire Wire Line
-	5575 2050 5575 4775
+	5575 2050 5575 2175
 Wire Wire Line
-	9175 2050 9175 4775
+	9175 2050 9175 2175
 $Comp
 L Connector:TestPoint TP1
 U 1 1 5C6EFC1B
@@ -2504,10 +2504,10 @@ Wire Wire Line
 	3225 4550 3125 4550
 Connection ~ 3125 4550
 $Comp
-L power:GND #PWR?
+L power:GND #PWR0110
 U 1 1 5D08B550
 P 2650 4550
-F 0 "#PWR?" H 2650 4300 50  0001 C CNN
+F 0 "#PWR0110" H 2650 4300 50  0001 C CNN
 F 1 "GND" H 2655 4377 50  0000 C CNN
 F 2 "" H 2650 4550 50  0001 C CNN
 F 3 "" H 2650 4550 50  0001 C CNN
@@ -2529,10 +2529,10 @@ F 3 "~" H 1950 1575 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L power:GND #PWR?
+L power:GND #PWR0116
 U 1 1 5C775F80
 P 1950 1675
-F 0 "#PWR?" H 1950 1425 50  0001 C CNN
+F 0 "#PWR0116" H 1950 1425 50  0001 C CNN
 F 1 "GND" H 1955 1502 50  0000 C CNN
 F 2 "" H 1950 1675 50  0001 C CNN
 F 3 "" H 1950 1675 50  0001 C CNN
@@ -2590,4 +2590,196 @@ Wire Wire Line
 	3225 1500 3325 1500
 Wire Wire Line
 	2650 4550 2925 4550
+Text GLabel 2425 2825 0    50   Input ~ 0
+COL15
+Text GLabel 2425 2925 0    50   Input ~ 0
+COL7
+Text GLabel 2425 3025 0    50   Input ~ 0
+COL6
+Text GLabel 2425 3125 0    50   Input ~ 0
+COL13
+Text GLabel 2425 3225 0    50   Input ~ 0
+COL14
+Text GLabel 2425 3325 0    50   Input ~ 0
+COL12
+Text GLabel 2425 3425 0    50   Input ~ 0
+COL11
+Text GLabel 2425 3525 0    50   Input ~ 0
+COL10
+Text GLabel 2425 3625 0    50   Input ~ 0
+COL9
+Text GLabel 2425 3725 0    50   Input ~ 0
+COL8
+Text GLabel 2425 3825 0    50   Input ~ 0
+COL5
+Text GLabel 2425 3925 0    50   Input ~ 0
+COL4
+Text GLabel 2425 4025 0    50   Input ~ 0
+COL3
+Text GLabel 2425 4125 0    50   Input ~ 0
+COL2
+Text GLabel 2425 4225 0    50   Input ~ 0
+COL1
+Text GLabel 2425 4325 0    50   Input ~ 0
+COL0
+Text GLabel 3725 3125 2    50   Input ~ 0
+ROW0
+Text GLabel 3725 3225 2    50   Input ~ 0
+ROW1
+Text GLabel 3725 3325 2    50   Input ~ 0
+ROW2
+Text GLabel 3725 2825 2    50   Input ~ 0
+ROW3
+Text GLabel 3725 2925 2    50   Input ~ 0
+ROW4
+Connection ~ 13975 4125
+Wire Wire Line
+	13975 4125 13975 4775
+Connection ~ 12775 4125
+Wire Wire Line
+	12775 4125 12775 4775
+Connection ~ 12175 4125
+Wire Wire Line
+	12175 4125 12175 4775
+Connection ~ 11575 4125
+Wire Wire Line
+	11575 4125 11575 4775
+Connection ~ 11575 3475
+Wire Wire Line
+	11575 3475 11575 4125
+Connection ~ 12175 3475
+Wire Wire Line
+	12175 3475 12175 4125
+Connection ~ 9775 3475
+Wire Wire Line
+	9775 3475 9775 4125
+Connection ~ 10375 3475
+Wire Wire Line
+	10375 3475 10375 4125
+Connection ~ 10375 2825
+Wire Wire Line
+	10375 2825 10375 3475
+Connection ~ 9775 2825
+Wire Wire Line
+	9775 2825 9775 3475
+Connection ~ 9175 4125
+Wire Wire Line
+	9175 4125 9175 4775
+Connection ~ 9175 3475
+Wire Wire Line
+	9175 3475 9175 4125
+Connection ~ 9175 2825
+Wire Wire Line
+	9175 2825 9175 3475
+Connection ~ 9775 2175
+Wire Wire Line
+	9775 2175 9775 2825
+Connection ~ 9175 2175
+Wire Wire Line
+	9175 2175 9175 2825
+Connection ~ 10375 2175
+Wire Wire Line
+	10375 2175 10375 2825
+Connection ~ 10975 2175
+Wire Wire Line
+	10975 2175 10975 2825
+Connection ~ 11575 2175
+Wire Wire Line
+	11575 2175 11575 2825
+Connection ~ 12175 2175
+Wire Wire Line
+	12175 2175 12175 2825
+Connection ~ 12775 2175
+Wire Wire Line
+	12775 2175 12775 2825
+Connection ~ 13375 2175
+Wire Wire Line
+	13375 2175 13375 2825
+Connection ~ 14575 2175
+Wire Wire Line
+	14575 2175 14575 2825
+Connection ~ 14575 2825
+Wire Wire Line
+	14575 2825 14575 4775
+Connection ~ 13375 3475
+Wire Wire Line
+	13375 3475 13375 4775
+Connection ~ 13375 2825
+Wire Wire Line
+	13375 2825 13375 3475
+Connection ~ 12775 2825
+Wire Wire Line
+	12775 2825 12775 4125
+Connection ~ 12175 2825
+Wire Wire Line
+	12175 2825 12175 3475
+Connection ~ 11575 2825
+Wire Wire Line
+	11575 2825 11575 3475
+Connection ~ 10975 2825
+Wire Wire Line
+	10975 2825 10975 3475
+Connection ~ 10975 3475
+Wire Wire Line
+	10975 3475 10975 4125
+Connection ~ 6775 4125
+Wire Wire Line
+	6775 4125 6775 4775
+Connection ~ 5575 4125
+Wire Wire Line
+	5575 4125 5575 4775
+Connection ~ 5575 3475
+Wire Wire Line
+	5575 3475 5575 4125
+Connection ~ 6175 3475
+Wire Wire Line
+	6175 3475 6175 4775
+Connection ~ 6775 3475
+Wire Wire Line
+	6775 3475 6775 4125
+Connection ~ 7375 3475
+Wire Wire Line
+	7375 3475 7375 4125
+Connection ~ 8575 3475
+Wire Wire Line
+	8575 3475 8575 4125
+Connection ~ 7975 3475
+Wire Wire Line
+	7975 3475 7975 4125
+Connection ~ 6775 2825
+Wire Wire Line
+	6775 2825 6775 3475
+Connection ~ 6175 2825
+Wire Wire Line
+	6175 2825 6175 3475
+Connection ~ 5575 2825
+Wire Wire Line
+	5575 2825 5575 3475
+Connection ~ 7375 2825
+Wire Wire Line
+	7375 2825 7375 3475
+Connection ~ 7975 2825
+Wire Wire Line
+	7975 2825 7975 3475
+Connection ~ 8575 2825
+Wire Wire Line
+	8575 2825 8575 3475
+Connection ~ 8575 2175
+Wire Wire Line
+	8575 2175 8575 2825
+Connection ~ 7975 2175
+Wire Wire Line
+	7975 2175 7975 2825
+Connection ~ 7375 2175
+Wire Wire Line
+	7375 2175 7375 2825
+Connection ~ 6775 2175
+Wire Wire Line
+	6775 2175 6775 2825
+Connection ~ 6175 2175
+Wire Wire Line
+	6175 2175 6175 2825
+Connection ~ 5575 2175
+Wire Wire Line
+	5575 2175 5575 2825
 $EndSCHEMATC
