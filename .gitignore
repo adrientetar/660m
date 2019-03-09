@@ -1,3 +1,7 @@
 *.bak
 *.bck
 *.kicad_pcb-bak
+
+*.db
+*.png
+*.svg

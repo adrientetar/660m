@@ -11,9 +11,9 @@
 
   (page A3)
   (title_block
-    (title "FC660M Édition Gaulois")
+    (title "FC660M AT-AT")
     (company "Électronique Tétar SA")
-    (comment 1 ai03)
+    (comment 1 "{Adrien, Alexis} Tétar")
   )
 
   (layers
@@ -93,7 +93,7 @@
       (mirror false)
       (drillshape 1)
       (scaleselection 1)
-      (outputdirectory "C:/Users/Admin/Downloads/"))
+      (outputdirectory "Gerbers"))
   )
 
   (net 0 "")
@@ -6399,7 +6399,6 @@
   (segment (start 351.379 124.676) (end 349.639 122.936) (width 0.25) (layer B.Cu) (net 1))
   (segment (start 351.379 125.476) (end 351.379 124.676) (width 0.25) (layer B.Cu) (net 1))
   (segment (start 349.639 122.936) (end 348.996 122.936) (width 0.25) (layer B.Cu) (net 1))
-  (via (at 355.6 116.332) (size 0.8) (drill 0.4) (layers F.Cu B.Cu) (net 80))
   (via (at 340.868 72.136) (size 0.8) (drill 0.4) (layers F.Cu B.Cu) (net 2))
   (via (at 335.28 71.628) (size 0.8) (drill 0.4) (layers F.Cu B.Cu) (net 2))
   (segment (start 336.804 77.597) (end 334.645 77.597) (width 0.24892) (layer F.Cu) (net 2))
@@ -7091,6 +7090,7 @@
   (segment (start 337.369002 99.568) (end 336.296 99.568) (width 0.25) (layer B.Cu) (net 79))
   (segment (start 140.208 99.568) (end 336.296 99.568) (width 0.25) (layer B.Cu) (net 79))
   (segment (start 353.117002 115.316) (end 337.369002 99.568) (width 0.25) (layer B.Cu) (net 79))
+  (via (at 355.6 116.332) (size 0.8) (drill 0.4) (layers F.Cu B.Cu) (net 80))
   (segment (start 148.59 70.8025) (end 149.225 71.4375) (width 0.25) (layer F.Cu) (net 80))
   (segment (start 149.225 80.645) (end 158.115 89.535) (width 0.25) (layer F.Cu) (net 80))
   (segment (start 149.225 71.4375) (end 149.225 80.645) (width 0.25) (layer F.Cu) (net 80))
@@ -14075,7 +14075,7 @@
     (connect_pads (clearance 0.381))
     (min_thickness 0.254)
     (keepout (tracks allowed) (vias allowed) (copperpour not_allowed))
-    (fill (arc_segments 32) (thermal_gap 0.508) (thermal_bridge_width 0.508) (smoothing chamfer))
+    (fill (arc_segments 32) (thermal_gap 0.508) (thermal_bridge_width 0.508))
     (polygon
       (pts
         (xy 352.044 133.604) (xy 352.044 135.636) (xy 353.06 136.652) (xy 354.584 136.652) (xy 354.584 135.128)
