@@ -11,9 +11,9 @@
 
   (page A3)
   (title_block
-    (title "FC660M Édition Gaulois")
+    (title "FC660M AT-AT")
     (company "Électronique Tétar SA")
-    (comment 1 ai03)
+    (comment 1 "{Adrien, Alexis} Tétar")
   )
 
   (layers
@@ -93,7 +93,7 @@
       (mirror false)
       (drillshape 1)
       (scaleselection 1)
-      (outputdirectory "C:/Users/Admin/Downloads/"))
+      (outputdirectory "Gerbers"))
   )
 
   (net 0 "")
