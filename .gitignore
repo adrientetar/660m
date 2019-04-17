@@ -2,6 +2,10 @@
 *.bck
 *.kicad_pcb-bak
 
+/Gerbers/
+fp-info-cache
+*.net
+
 *.db
 *.png
 *.svg
