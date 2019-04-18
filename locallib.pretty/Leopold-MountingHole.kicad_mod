@@ -1,4 +1,4 @@
-(module Leopold-MountingHole (layer F.Cu) (tedit 5C94079B)
+(module Leopold-MountingHole (layer F.Cu) (tedit 5CB74CEA)
   (fp_text reference REF** (at 0 5) (layer F.SilkS) hide
     (effects (font (size 1 1) (thickness 0.15)))
   )
@@ -9,5 +9,5 @@
   (fp_line (start 2 -3.5) (end 2 3.5) (layer Dwgs.User) (width 0.15))
   (fp_line (start 2 3.5) (end -2 3.5) (layer Dwgs.User) (width 0.15))
   (fp_line (start -2 3.5) (end -2 -3.5) (layer Dwgs.User) (width 0.15))
-  (pad "" np_thru_hole oval (at 0 0) (size 1.5 5) (drill oval 1.5 5) (layers *.Cu *.Mask))
+  (pad "" np_thru_hole oval (at 0 0) (size 1.8 5) (drill oval 1.8 5) (layers *.Cu *.Mask))
 )

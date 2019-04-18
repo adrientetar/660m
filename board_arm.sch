@@ -1,13 +1,13 @@
 EESchema Schematic File Version 4
 LIBS:board_arm-cache
-EELAYER 26 0
+EELAYER 29 0
 EELAYER END
 $Descr A3 16535 11693
 encoding utf-8
 Sheet 1 1
-Title "FC660M AT-AT"
+Title "AT-AT 660M"
 Date ""
-Rev ""
+Rev "2"
 Comp "Électronique Tétar SA"
 Comment1 "{Adrien, Alexis} Tétar, ai03"
 Comment2 ""
@@ -445,10 +445,10 @@ F 3 "" V 10700 2475 50  0001 C CNN
 	0    -1   -1   0   
 $EndComp
 $Comp
-L MX_Alps_Hybrids:MX-1U K_#10
+L MX_Alps_Hybrids:MX-1U K_#0
 U 1 1 5C993A68
 P 11400 2200
-F 0 "K_#10" H 11400 2325 60  0000 C CNN
+F 0 "K_#0" H 11400 2325 60  0000 C CNN
 F 1 "MX-1U" H 11400 2250 20  0000 C CNN
 F 2 "MX_Alps_Hybrid:MXOnly-1U-NoLED" H 11375 2175 60  0001 C CNN
 F 3 "" H 11375 2175 60  0001 C CNN
