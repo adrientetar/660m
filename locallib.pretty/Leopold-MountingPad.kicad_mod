@@ -1,13 +1,13 @@
-(module Leopold-MountingPad (layer F.Cu) (tedit 5CB74D03)
+(module Leopold-MountingPad (layer F.Cu) (tedit 5CBDB63A)
   (fp_text reference REF** (at 0 5) (layer F.SilkS) hide
     (effects (font (size 1 1) (thickness 0.15)))
   )
   (fp_text value Leopold-MountingPad (at 0 -5) (layer F.Fab) hide
     (effects (font (size 1 1) (thickness 0.15)))
   )
-  (fp_line (start -2 -3.5) (end 2 -3.5) (layer Dwgs.User) (width 0.15))
-  (fp_line (start 2 -3.5) (end 2 3.5) (layer Dwgs.User) (width 0.15))
-  (fp_line (start 2 3.5) (end -2 3.5) (layer Dwgs.User) (width 0.15))
   (fp_line (start -2 3.5) (end -2 -3.5) (layer Dwgs.User) (width 0.15))
-  (pad "" thru_hole rect (at 0 0) (size 3 6) (drill oval 1.8 5.2) (layers *.Cu *.Mask))
+  (fp_line (start 2 3.5) (end -2 3.5) (layer Dwgs.User) (width 0.15))
+  (fp_line (start 2 -3.5) (end 2 3.5) (layer Dwgs.User) (width 0.15))
+  (fp_line (start -2 -3.5) (end 2 -3.5) (layer Dwgs.User) (width 0.15))
+  (pad "" thru_hole rect (at 0 0) (size 3 6) (drill oval 1.85 5.2) (layers *.Cu *.Mask))
 )
